@@ -1,5 +1,5 @@
 package global.lab2;
-
+import java.lang.Math;
 
 class Calculator {
 
