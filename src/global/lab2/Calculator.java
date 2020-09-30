@@ -8,11 +8,11 @@ class Calculator {
     }
 
     private static double task26(double a, double b, double c, double d) {
-        return 1 ; // instead of 1 write formula to task26(Denys or Maks)
+        return 1 ; // instead of '1' write formula to task26(Denys or Maks)
     }
 
     private static double task27(double a, double b, double c, double d) {
-        return 1; // instead of 1 write formula to task27(Denys or Maks)
+        return 1; // instead of '1' write formula to task27(Denys or Maks)
     }
 
      /*Last 3 function was wrote to protect calculating function, so engineer, which not
