@@ -8,11 +8,11 @@ class Calculator {
     }
 
     private static double task26(double a, double b, double c, double d) {
-        return 1 ; // instead of '1' write formula to task26(Denys or Maks)
+        return (Math.pow(Math.tan(a), 1/c)) / (2 - (Math.cosh(b) / (Math.log((Math.abs(d + c))))));
     }
 
     private static double task27(double a, double b, double c, double d) {
-        return 1; // instead of '1' write formula to task27(Denys or Maks)
+        return Math.sin(Math.pow(a, -b)) + 3 * Math.abs(Math.acos(-Math.sqrt(c/d)));
     }
 
      /*Last 3 function was wrote to protect calculating function, so engineer, which not
@@ -23,11 +23,11 @@ class Calculator {
     }
 
     public static void printResultT26(double a, double b, double c, double d){
-    //...here write like me above
+        System.out.println("> Result of task26: y = " + task26(a, b, c ,d));
     }
 
     public static void printResultT27(double a, double b, double c, double d){
-    //...here write like me above
+        System.out.println("> Result of task27: y = " + task27(a, b, c ,d));
     }
 
 }
